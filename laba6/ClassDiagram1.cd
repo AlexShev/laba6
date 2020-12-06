@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="laba6.AdminWindow" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <InheritanceLine Type="laba6.WorkWindow" ManuallyRouted="true">
+      <Path>
+        <Point X="11.5" Y="5" />
+        <Point X="11.5" Y="4.315" />
+        <Point X="8.75" Y="4.315" />
+        <Point X="8.75" Y="4.738" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAQAAEAAAAAAABBAIASBAAACAMQzAAAAkDANJADBAQA=</HashCode>
+      <FileName>Interface\AdminWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba6.Authorization" Collapsed="true">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <InheritanceLine Type="laba6.StandartForm" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="2.738" />
+        <Point X="7.5" Y="4.375" />
+        <Point X="6.75" Y="4.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AwAAAEBAIAEABBEAAECIAAACAAAAAAQAAAAAB4BAEQA=</HashCode>
+      <FileName>Interface\Autorizathion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_startWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="laba6.ClientWindow" Collapsed="true">
+    <Position X="8" Y="6" Width="1.5" />
+    <InheritanceLine Type="laba6.WorkWindow" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="5.738" />
+        <Point X="11.5" Y="6.375" />
+        <Point X="9.5" Y="6.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ICAAAAAAAAAAAFIAAAAAAAACAMAwAAAAEDAMAQAAAAA=</HashCode>
+      <FileName>Interface\ClientWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba6.Registration" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <AssociationLine Name="_startWindow" Type="laba6.StandartForm" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="6.312" />
+        <Point X="2.658" Y="6.312" />
+        <Point X="2.658" Y="2.375" />
+        <Point X="6.75" Y="2.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AwACiMVIqAFABBAIgEaCQQAKQAAIAAwECAABR8RAEQg=</HashCode>
+      <FileName>Interface\Registration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_startWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="laba6.StandartForm" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAACAAAAAQAAAIQIAQAAAAA=</HashCode>
+      <FileName>Interface\StandartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba6.StartWindow" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAABAAGBAAAAAAAAACQAAAAAQIAAAIASAAAAA=</HashCode>
+      <FileName>Interface\StartWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="laba6.WorkWindow" Collapsed="true">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <AssociationLine Name="_startWindow" Type="laba6.StandartForm" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.75" Y="5" />
+        <Point X="11.75" Y="2.369" />
+        <Point X="8.25" Y="2.369" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAEAAAAgCQAAICAQAAAAIASAAAAA=</HashCode>
+      <FileName>Interface\WorkWindow.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_startWindow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="laba6.Program" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
