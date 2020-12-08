@@ -36,7 +36,7 @@ namespace laba6
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Fuchsia;
+            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.programName);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -63,9 +63,9 @@ namespace laba6
             this.programName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.programName.Location = new System.Drawing.Point(12, 9);
             this.programName.Name = "programName";
-            this.programName.Size = new System.Drawing.Size(144, 46);
+            this.programName.Size = new System.Drawing.Size(141, 46);
             this.programName.TabIndex = 0;
-            this.programName.Text = "ШНЯГА";
+            this.programName.Text = "ЛАБА 6";
             // 
             // label2
             // 
@@ -85,7 +85,7 @@ namespace laba6
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StandartForm";
-            this.Text = "Шняга";
+            this.Text = "Лаба 6";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

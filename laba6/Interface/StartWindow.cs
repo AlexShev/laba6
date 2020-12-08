@@ -36,7 +36,7 @@ namespace laba6
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel2.BackColor = System.Drawing.Color.Fuchsia;
+            this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.exit);
             this.panel2.Controls.Add(this.label3);

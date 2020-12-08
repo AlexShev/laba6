@@ -173,7 +173,7 @@ namespace laba6
             // deleteClient
             // 
             this.deleteClient.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.deleteClient.BackColor = System.Drawing.Color.Fuchsia;
+            this.deleteClient.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.deleteClient.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.deleteClient.Controls.Add(this.button8);
             this.deleteClient.Controls.Add(this.button7);
